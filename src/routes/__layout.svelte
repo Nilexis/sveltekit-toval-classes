@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
+	import logo from '$lib/svelte-logo.svg';
 </script>
 
 <Header />
@@ -10,7 +11,13 @@
 </main>
 
 <footer>
-	<p>Built using <a href="https://kit.svelte.dev">SvelteKit</a></p>
+	<p>
+		Built using
+		<a href="https://kit.svelte.dev">
+			<img src={logo} height="2px" alt="Svelte logo"/>
+			SvelteKit
+		</a>
+	</p>
 </footer>
 
 <style>

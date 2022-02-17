@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
 
 	const isCurrentUrl = (path) => {
 		console.log($page.url.pathname);
@@ -51,11 +50,6 @@
 			</div>
 		</div>
 	</nav>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div>
 </header>
 
 <style>
